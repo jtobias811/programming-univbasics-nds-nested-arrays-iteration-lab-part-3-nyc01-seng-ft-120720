@@ -6,4 +6,7 @@ def join_nested_strings(src)
     while element_index < mixed_data[row_index].count do
       total += mixed_data[row_index][element_index]
       element_index += 1
+    end
+    row_index += 1
+  end
 end
